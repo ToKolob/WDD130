@@ -1,0 +1,49 @@
+body {
+  background-color: #fca6c9;
+  text-align: center;
+  
+  display: block;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+}
+ol {
+  text-align: left;  
+  margin: 0 auto;  
+  padding: 10px;
+  width: 40%;
+}
+li {
+  font-weight: bolder;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px;
+  font-size: .8em;
+}
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #ffffff;
+}
+h1:hover {
+  color: #000000;
+}
+main p {
+  color: #ffffff;
+  font-size: 2em;
+  width: 30%;
+  margin: 0 auto;
+}
+header h2 , header p {
+  color: #ffffff;
+  font-size: 16px;
+  width: 40%;	
+  margin: 0 auto;
+}
+footer p {
+  width: 43%;
+  margin: 0 auto;
+}
+footer {
+  padding: 30px;
+}
