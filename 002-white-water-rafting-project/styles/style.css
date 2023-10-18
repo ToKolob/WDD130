@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.container {
+#container {
     max-width: 1600px;
     margin: 0 auto;
 }
