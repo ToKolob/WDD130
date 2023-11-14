@@ -232,6 +232,46 @@ img.mountains {
 img.social {
     width: 80px;
 }
+
+/* rivers */
+
+#title {
+    text-align: center;
+    margin: 20px;
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin: 30px;    
+    position: relative;
+}
+#grid-container img {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    object-fit: cover;
+    box-shadow: 5px 5px 10px #3f7872;
+    padding: 10px;
+    background-color: #edf6f9;
+    
+}
+.grid-item{
+    background: #ffddd2;
+    line-height: 1.5em;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #b7694ca2;
+}
+.grid-item h2 {
+    color: #e29578;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid-item p {
+    margin: 0;
+    color: #b7694c;
+    padding:  10px;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
 @media screen and (max-width: 900px) {
     #hero, main.home-grid {
         display: block;
@@ -271,5 +311,11 @@ img.social {
     }
     footer {
         margin-top: 25px;
+    }
+    #grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 20px;
     }
 }
