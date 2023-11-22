@@ -98,7 +98,7 @@ div#consultancy{
   margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
-  background-image: url('/kolob-infinit-solutions/images/consultory.jpg');
+  background-image: url('../images/consultory.jpg');
   background-size: cover;
   background-position: center;
   height: 125vh;
