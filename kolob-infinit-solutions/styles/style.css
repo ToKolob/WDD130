@@ -267,6 +267,25 @@ div#photographer{
   align-items: center;
   text-align: justify;  
 }
+a button {
+  text-decoration: none;
+  background-color:  var(--nav-background-color);
+  color: var(--paragraph-color-on-color);
+  font-family: var(--heading-font);
+  font-size: 1em;
+  padding: 5px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: #de69867b 5px 5px 5px;
+  border: none;
+  margin: 10px;
+}
+
+a button:hover{
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+  cursor: pointer;
+}
 
 
 /* Footer */
